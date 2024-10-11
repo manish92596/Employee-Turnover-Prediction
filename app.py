@@ -33,7 +33,7 @@ if salary in salary_levels:
 else:
     salary_value = None
 
-proj = st.number_input("Proj", min_value=0, value=None, step=None)
+proj = st.number_input("Project", min_value=0, value=None, step=None)
 hour = st.number_input("Hour", min_value=0, value=None, step=None)
 
 # Multiply project and hour to get proj*hour
