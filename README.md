@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/46759516-73ed-433c-80a0-3283a9e9b5ac)
+
+</br>
+
 # Employee Turnover Prediction Using K-Nearest Neighbors (KNN)
 
 This repository contains a machine learning model designed to predict employee turnover—whether an employee will leave or stay—based on features such as satisfaction level, last evaluation score, time spent in the company, and more. The model is built using the K-Nearest Neighbors (KNN) algorithm, with hyperparameter tuning performed via GridSearchCV to optimize accuracy. Additionally, a Streamlit-based web interface allows users to input custom employee data and obtain predictions in real-time.
