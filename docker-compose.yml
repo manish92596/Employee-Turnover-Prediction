@@ -1,0 +1,26 @@
+
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+      - PYTHONWARNINGS=ignore 
+    networks:
+      - mynetwork 
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "5173:5173"
+    networks:
+      - mynetwork  
+
+networks:
+  mynetwork:
+    driver: bridge
