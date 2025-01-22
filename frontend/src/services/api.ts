@@ -1,7 +1,8 @@
 import { transformFormData } from '../utils/dataTransform';
 
-export const API_URL = 'http://backend:5000';
+// export const API_URL = 'http://backend:5000';
 
+export const API_URL = 'https://employee-turnover-prediction-qwh7.onrender.com';
 // export const API_URL = 'http://localhost:5000';
 
 export const predictTurnover = async (employeeData: any) => {
